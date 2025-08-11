@@ -1,0 +1,428 @@
+.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div{
+            border:2px solid black;
+            height: 1100px;
+            width: 100%;
+            border: none;
+
+             
+        }
+        header{
+            position: sticky;
+            top: 0%;
+            height: 100px;
+            width: 100%;
+            background-color:rgb(232, 235, 237);
+            padding-top:10px;
+            border: none;
+        }
+        .header-title{
+            font-size: 30px;
+            font-weight: normal;
+            color: rgb(48, 45, 45);
+        }
+        .header{
+            position: absolute;
+            top:5px;
+            text-decoration-line: none;
+            
+            
+        }
+        nav{
+            position: absolute;
+            top: 30px;
+            left: 400px;
+            border: none;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(48, 45, 45);
+            padding: 10px;
+            font-size: 20px;
+        }
+        .linkedin{
+            position: absolute;
+            top: 20px;
+            right:20px;
+        }
+        .fb{
+            position: absolute;
+            top: 20px;
+            right: 50px;
+        }
+        .twiter{
+            position: absolute;
+            top: 20px;
+            right: 80px;
+        }
+        img{
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            top: 30px;
+            right: 120px;
+        }
+        .about{
+            text-decoration: underline;
+            text-decoration-color: rgb(53, 217, 149);
+            color:rgb(53, 217, 149); 
+        }
+        nav .home:hover{
+            text-decoration: underline;
+            color: rgb(53, 217, 149);
+            
+        }
+          nav .about:hover{
+            text-decoration: underline;
+            color: rgb(53, 217, 149);
+            
+        }
+        nav .resume:hover{
+            text-decoration: underline;
+            color: rgb(53, 217, 149);
+            
+        }
+        nav .services:hover{
+            text-decoration: underline;
+            color: rgb(53, 217, 149);
+            
+        }
+        nav .portfolio:hover{
+            text-decoration: underline;
+            color: rgb(53, 217, 149);
+            
+        }
+        nav .dropdown:hover{
+            text-decoration: underline;
+            color: rgb(53, 217, 149);
+            
+        }
+        nav .contact:hover{
+            text-decoration: underline;
+            color: rgb(53, 217, 149);
+            
+        }
+        a:hover{
+             text-decoration: underline;
+             color: rgb(53, 217, 149);
+
+        }
+        .insta:hover{
+             text-decoration: underline;
+             color: rgb(53, 217, 149);
+
+        }
+        .content{
+            height: 600px;
+            border: none;
+        }
+        .about-title{
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: rgb(53, 217, 149);
+            text-size-adjust: 10px;
+        }
+        .about-subtitle{
+            text-align: center;
+            font-size: 18px;
+            color: rgb(63, 63, 62);
+        }
+       
+        
+        .about-img{
+            position: absolute;
+            left: 100px;
+            top: 280px;
+            height: 400px;
+            width: 400px;
+            
+        }
+        h2{
+           position: absolute;
+           left: 510px;
+        }
+        .about-description{
+            position: relative;
+            font-size: 15px;
+            left: 500px;
+            top:50px;
+        }
+        .picture{
+            height: 500px;
+            width: 100%;
+            border: none;
+        }
+        .about-list{
+            position: absolute;
+            left: 500px;
+            top: 350px;
+            list-style-type: square;
+            font-size: 15px;
+            
+        }
+         .about-list2{
+            position: absolute;
+            left: 900px;
+            top: 350px;
+            list-style-type: square;
+            font-size: 15px;
+        }
+        .about-description2{
+            position: absolute;
+            left: 510px;
+            top: 550px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        .skills{
+            height: 300px;
+            width: 100%;
+            border: none;
+        }
+        .skills-title{
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: rgb(53, 217, 149);
+            font-size: 30px;
+            padding-top: 20px;
+        }
+        .skills-description{
+            text-align: center;
+            font-size: 18px;
+            color: rgb(63, 63, 62);
+        }
+        .html{
+            position: absolute;
+            left: 50px;
+            top: 920px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+        }
+        .html-l{
+            position: absolute;
+            left: 50px;
+            top: 900px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+            
+        }
+         .css{
+            position: absolute;
+            left: 50px;
+            top: 980px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+         }
+         .css-l{
+            position: absolute;
+            left: 50px;
+            top: 960px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+         }
+         .js{
+            position: absolute;
+            left: 50px;
+            top: 1040px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+         }
+         .js-l{
+            position: absolute;
+            left: 50px;
+            top: 1020px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+         }
+         .react{
+            position: absolute;
+            left: 800px;
+            top: 920px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+        }
+         .react-l{
+            position: absolute;
+            left: 800px;
+            top: 900px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+            
+        }
+          .node{
+            position: absolute;
+            left: 800px;
+            top: 980px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+         }
+         .node-l{
+            position: absolute;
+            left: 800px;
+            top: 960px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+         }
+         .photoshop{
+            position: absolute;
+            left: 800px;
+            top: 1040px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+        }
+         .photoshop-l{
+           position: absolute;
+            left: 800px;
+            top: 1020px;
+            height: 10px;
+            width: 400px;
+            border-radius: 1px;
+        }
+
+        #linkedin{
+            position: absolute;
+            top: 1200px;
+            left: 560px;
+            padding: 10px;
+        }
+        #fb{
+            position: absolute;
+            top:1200px;
+            left: 630px;
+            padding: 10px;
+        }
+        #twiter{
+            position: absolute;
+            top: 1200px;
+            left: 700px;
+            padding: 10px;
+        }
+        #insta{
+            position: absolute;
+            top: 1180px;
+            left: 900px;
+            padding: 10px;
+        }
+        #desin{
+            position: absolute;
+            top: 1230px;
+            left: 500px;
+            color: rgb(48, 45, 45);
+        }
+        #bootstrap{
+            color: rgb(53, 217, 149);
+            text-decoration: none;
+            font-size: 18px;
+        }
+          #copy-rights{
+            position: absolute;
+            top:1120px;
+            left:550px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <a  class="header" href="https://themewagon.github.io/Kelly/index.html"><h1 class="header-title">KELLY</h1></a>
+             <nav>
+               <a  class="home"  href="http://127.0.0.1:5501/home.html">HOME</a>
+                <a class="about" href="http://127.0.0.1:5501/about.html">ABOUT</a>
+                <a class="resume" href="http://127.0.0.1:5501/resume.html">RESUME</a>
+                <a class="services" href="http://127.0.0.1:5501/service.html">SERVICES</a>
+                <a class="portfolio" href="http://127.0.0.1:5501/portfolio.html">PORTFOLIO</a>
+                <a  class="dropdown"  href="">DROPDOWN</a>
+                <a class="contact" href="http://127.0.0.1:5501/contact.html">CONTACT</a>
+             </nav>
+                <a  class="linkedin" href=""><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg></a> 
+                <a class="fb"   href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg></a>
+               <a  class="twiter"  href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg></a> 
+                <a  class="insta" href=""><img src="https://static.vecteezy.com/system/resources/thumbnails/033/274/654/small_2x/camera-photography-icon-symbol-image-illustration-of-multimedia-photographic-lens-graphic-design-image-vector.jpg" alt=""></a>
+       </header>
+       <div class="content">
+           <h1 class="about-title">About</h1>
+           <h3 class="about-subtitle">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</h3>
+           <div class="picture">
+           <img class="about-img"  src="https://themewagon.github.io/Kelly/assets/img/profile-img.jpg" alt="">
+            <h2>UI/UX Designer & Web Developer.</h2>
+            <h3 class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+            <ul class="about-list">
+                <li>Birthday:
+                    1 May 1995</li><br>
+                <li>Website:www.example.com</li><br>
+                <li>Phone:9342769963</li><br>
+                <li>City:New York</li><br>
+              </ul>
+              <ul class="about-list2">
+                <li>Age:28</li><br>
+                <li>Degree:Master</li><br>
+                <li>Email:example@example.com</li><br>
+                <li>Freelance:Available</li><br>
+
+              </ul>
+              <h3 class="about-description2">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. <br>Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. <br>
+                 Sed et consectetur qui quia repellendus itaque neque.</h3>
+           </div>
+           <div class="skills">
+            <h1 class="skills-title">Skills</h1>
+            <h3 class="skills-description">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</h3>
+             <span class="html-l"><label for="html">Html</label><label style="margin-left: 320px;" for="100%">100%</label></span>
+            <progress  class="html" value="100" max="100%">Html</progress>
+            <span class="css-l"><label for="css">Css</label><label style="margin-left: 340px;" for="90%">90%</label></span>
+                <progress class="css" value="90" max="100%">Css</progress>
+                <span class="js-l"><label for="js">JavaScript</label><label style="margin-left: 300px;" for="80%">80%</label></span>
+                <progress class="js" value="80" max="100%">JavaScript</progress>
+                <span class="react-l"><label for="react">React</label><label style="margin-left: 320px;" for="70%">70%</label></span>
+                <progress class="react" value="70" max="100%">React</progress>
+                <span class="node-l"><label for="node">Node.js</label><label style="margin-left: 310px;" for="60%">60%</label></span>
+                <progress class="node" value="60" max="100%">Node.js</progress>
+                <span class="photoshop-l"><label for="photoshop">Photoshop</label><label style="margin-left: 300px;" for="60%">60%</label></span>
+                <progress class="photoshop" value="60" max="100%">Photoshop</progress>
+
+           </div>
+       </div>
+    </div>
+          <hr style="color: 2px solid black;">
+          <footer>
+            <p  id="copy-rights"  style="text-align: center; padding: 20px; color: rgb(48, 45, 45);">© Copyright kelly All Rights Reserved</p>
+             <a  id="linkedin" href=""><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg></a> 
+                <a id="fb"   href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg></a>
+               <a  id="twiter"  href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg></a> 
+                <a  id="insta" href=""><img src="https://static.vecteezy.com/system/resources/thumbnails/033/274/654/small_2x/camera-photography-icon-symbol-image-illustration-of-multimedia-photographic-lens-graphic-design-image-vector.jpg" alt=""></a>
+                <p id="desin">Designed by <a  id="bootstrap" href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a id="theme" href="https://themewagon.com/">ThemeWagon</a></p>
+       </footer>
+     
+    
+</body>
+</html>
